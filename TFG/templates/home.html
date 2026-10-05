@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Home</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <script src="{% static 'js/script.js' %}"></script>
+    </head>
+    <body>
+	<nav>
+	    <a href="/">Home</a>
+	    <a href="/showcase/">Showcase</a>
+	</nav>
+        <h1>Welcome</h1>
+        <p>My first Django page.</p>
+        <img src="{% static 'images/imagen_prueba.png' %}" alt="Test image" width="400">
+    </body>
+</html>
