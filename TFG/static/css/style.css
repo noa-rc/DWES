@@ -1,4 +1,54 @@
 body {
-    background-color: #f2f2f2;
+    margin: 0;
+    background-color: #f4f1ea;
+    color: #222222;
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #1f5c4a;
+    padding: 15px 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin: 40px 30px 20px;
+}
+
+h2 {
+    color: #1f5c4a;
+    margin: 30px 30px 5px;
+}
+
+p {
+    margin: 0 30px;
+    max-width: 700px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #222222;
+    color: white;
+    padding: 20px 0;
+}
+
+img {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    margin: 30px;
+    border-radius: 8px;
 }
