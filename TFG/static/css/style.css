@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #1d1f1c;
+    line-height: 1.6;
+}
+
+nav {
+    background: #1f5c4a;
+    padding: 14px 38px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 22px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2.8rem;
+    margin: 40px 38px 20px;
+}
+
+h2 {
+    color: #1f5c4a;
+    margin: 30px 38px 8px;
+}
+
+p {
+    max-width: 700px;
+    margin: 0 38px 16px;
+}
+
+ol {
+    max-width: 700px;
+    margin: 20px 38px;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #d8d2c4;
+}
+
+img {
+    display: block;
+    margin: 30px 38px;
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+    margin: 20px 38px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 8px;
+    border: 1px solid #d8d2c4;
+    font: inherit;
+}
+
+button {
+    background: #1f5c4a;
+    color: #ffffff;
+    border: 0;
+    padding: 10px;
+    font: inherit;
+    cursor: pointer;
+}
+
+footer {
+    background: #1d1f1c;
+    color: #ffffff;
+    padding: 20px 38px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    max-width: none;
+}
