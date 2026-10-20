@@ -7,4 +7,5 @@ urlpatterns = [
     path('', views.homepage, name='homepage'),
     path('contacto/', views.contacto, name='contacto'),
     path('showcase/', include('showcase.urls')),
+    path('calendario/', include('calendario.urls')),
 ]
