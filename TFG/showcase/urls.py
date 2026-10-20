@@ -1,9 +1,8 @@
-"""URL configuration for the showcase app."""
-
 from django.urls import path
-
 from . import views
 
+app_name = 'showcase'
+
 urlpatterns = [
-    path('', views.showcase),
+    path('', views.showcase, name='homepage'),
 ]
