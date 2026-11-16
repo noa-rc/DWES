@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Tres en raya · DWES{% endblock %}
+
+{% block content %}
+    <h1>Tres en raya</h1>
+    <p>{{ mensaje }}</p>
+    <div>
+
+    {% if not terminado %}
+        <form class="tablero" action="{% url 'tres_en_raya' %}" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="tablero" value="{{ tablero }}">
+            <input type="hidden" name="turno" value="{{ turno }}">
+            {% for casilla in tablero %}                    
+                <button type="submit" name="posicion" value="{{ forloop.counter0 }}">
+                    {{ casilla }}
+                </button>
+            {% endfor %}
+        </form>
+    {% endif %}
+
+</div>
+    <p><a href="{% url 'tres_en_raya' %}">Reiniciar partida</a></p>
+
+{% endblock %}
